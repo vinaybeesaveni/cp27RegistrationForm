@@ -1,0 +1,76 @@
+* {
+  font-family: 'Roboto';
+}
+.bg-container {
+  height: 100vh;
+  padding-top: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.heading {
+  color: #ea580c;
+  font-weight: 500s;
+  font-size: 40px;
+}
+label {
+  font-size: 15px;
+}
+input {
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  border: 1px solid #cbd2d9;
+  font-size: 15px;
+  padding-left: 10px;
+  margin-top: 5px;
+  outline: none;
+}
+.empty {
+  border-color: #ff0b37;
+  background-color: #fef2f4;
+}
+.required {
+  margin-top: 1px;
+  margin-bottom: 0;
+  font-size: 13px;
+  color: #ff0b37;
+}
+.card {
+  width: 90%;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  margin-top: 60px;
+  padding: 10px;
+  height: 250px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.first-name-container {
+  margin-bottom: 25px;
+  width: 80%;
+}
+.last-name-container {
+  width: 80%;
+}
+button {
+  background-color: #ea580c;
+  color: white;
+  border-width: 0;
+  border-radius: 5px;
+  font-size: 12px;
+  height: 30px;
+  width: 60px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+.submit-another-btn {
+  width: 180px;
+}
+.submitted {
+  color: black;
+  font-weight: 500;
+  font-size: 20px;
+}
